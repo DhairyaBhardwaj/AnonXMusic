@@ -2,17 +2,6 @@
 # Licensed under the MIT License.
 # This file is part of AnonXMusic
 
-from dotenv import load_dotenv
-load_dotenv()
-import os
-
-needed = ["API_ID", "API_HASH", "BOT_TOKEN", "LOGGER_ID", "MONGO_URL", "OWNER_ID", "SESSION"]
-for n in needed:
-    if not os.getenv(n):
-        print(f"❌ Missing variable: {n}")
-    else:
-        print(f"✅ Loaded: {n}")
-
 import asyncio
 import importlib
 
