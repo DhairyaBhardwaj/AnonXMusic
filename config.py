@@ -9,10 +9,10 @@ class Config:
         self.API_HASH = getenv("API_HASH")
 
         self.BOT_TOKEN = getenv("BOT_TOKEN")
-        self.MONGO_URL = getenv("mongodb+srv://forwardbot:xvpaXVydJyuZyLh0@cluster0.k304gdc.mongodb.net/?")
+        self.MONGO_URL = getenv("MONGO_URL")
 
-        self.LOGGER_ID = int(getenv("-1003169727261", 0))
-        self.OWNER_ID = int(getenv("5968801459", 0))
+        self.LOGGER_ID = int(getenv("LOGGER_ID", 0))
+        self.OWNER_ID = int(getenv("OWNER_ID", 0))
 
         self.SESSION1 = getenv("SESSION", None)
         self.SESSION2 = getenv("SESSION2", None)
