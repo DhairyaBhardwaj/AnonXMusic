@@ -2,8 +2,7 @@
 # Licensed under the MIT License.
 # This file is part of AnonXMusic
 
-from dotenv import load_dotenv
-load_dotenv()
+
 import asyncio
 import importlib
 
