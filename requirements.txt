@@ -8,3 +8,6 @@ py-tgcalls~=2.2.8
 py-yt-search~=0.3
 python-dotenv~=1.1.1
 yt-dlp[default]>=2025.10.31.222828.dev0
+flask
+requests
+numpy
